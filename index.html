@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Sable Cantus">
-  <title>Presentation Template</title>
+  <title>Modern Web Browsers</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -37,70 +37,441 @@
     <div class="slides">
 
 <section id="title-slide">
-  <h1 class="title">Presentation Template</h1>
+  <h1 class="title">Modern Web Browsers</h1>
   <p class="author">Sable Cantus</p>
-  <p class="date"><date></p>
 </section>
 
-<section class="slide level6">
-
-<p>Update the slides.md file</p>
-</section>
-<section class="slide level6">
-
-<p>Press the right arrow to build this slide.</p>
+<section id="what-is-a-web-browser" class="slide level2">
+<h2>What is a Web Browser?</h2>
+<p>A <strong>web browser</strong> is a software application designed
+for:</p>
 <ul>
-<li class="fragment">add bullets</li>
-<li class="fragment">titles</li>
-<li class="fragment">images</li>
+<li>Accessing and retrieving content from the World Wide Web</li>
+<li>Interpreting HTML, CSS, and JavaScript</li>
+<li>Displaying formatted web pages to users</li>
+<li>Serving as the primary gateway to internet resources</li>
 </ul>
 </section>
-<section class="slide level6">
-
-<p>Press “s” to enable speaker notes.</p>
-<aside class="notes">
-<p>These are speaker notes. Use them!</p>
-</aside>
+<section
+id="browsers-act-as-intermediaries-between-users-and-web-servers"
+class="slide level2">
+<h2>Browsers act as intermediaries between users and web servers</h2>
 </section>
-<section class="slide level6">
-
-<section data-background-color="rgb(70, 70, 255)">
-<p>
-Change the backgrounds, too!
-</p>
+<section id="core-browser-functions" class="slide level2">
+<h2>Core Browser Functions</h2>
 </section>
-</section>
-<section class="slide level6">
+<section class="slide level2">
 
-<p>Compile to a self-contained file:</p>
-<pre><code>$ ./build.sh</code></pre>
-</section>
-<section class="slide level6">
-
-<p>The build file is very simple:</p>
-<pre><code>pandoc -t revealjs \
-    --variable theme=&quot;black&quot; \
-    -s slides.md \
-    -o index.html</code></pre>
-</section>
-<section class="slide level6">
-
-<p>Some theme options include:</p>
+<h3 id="content-management">Content Management</h3>
 <ul>
-<li>white</li>
-<li>league</li>
-<li>beige</li>
-<li>night …</li>
+<li><strong>Content Retrieval</strong>: Send HTTP/HTTPS requests to web
+servers</li>
+<li><strong>Content Rendering</strong>: Parse and display HTML, CSS,
+JavaScript</li>
+<li><strong>User Interaction</strong>: Handle clicks, form submissions,
+navigation</li>
 </ul>
 </section>
-<section class="slide level6">
+<section class="slide level2">
 
-<p>Enable git pages FTW</p>
+<h3 id="security-data">Security &amp; Data</h3>
+<ul>
+<li><strong>Security Management</strong>: Protect users from malicious
+content</li>
+<li><strong>Data Storage</strong>: Manage cookies, cache, browsing
+history</li>
+</ul>
 </section>
-<section class="slide level6">
+<section id="browser-architecture" class="slide level2">
+<h2>Browser Architecture</h2>
+</section>
+<section class="slide level2">
 
-<section data-background-image="img/cat.jpg">
+<!-- ### Seven Main Components: -->
+<ol type="1">
+<li><strong>User Interface</strong> - Address bar, navigation buttons,
+tabs</li>
+<li><strong>Browser Engine</strong> - Bridge between UI and rendering
+engine</li>
+<li><strong>Rendering Engine</strong> - Displays web content (Blink,
+WebKit, Gecko)</li>
+<li><strong>JavaScript Engine</strong> - Executes interactive code (V8,
+SpiderMonkey)</li>
+<li><strong>Networking</strong> - Handles HTTP/HTTPS communications</li>
+<li><strong>UI Backend</strong> - Draws interface elements</li>
+<li><strong>Data Storage</strong> - Manages local data</li>
+</ol>
 </section>
+<section id="popular-rendering-engines" class="slide level2">
+<h2>Popular Rendering Engines</h2>
+<table>
+<thead>
+<tr>
+<th>Browser</th>
+<th>Rendering Engine</th>
+<th>JavaScript Engine</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chrome</td>
+<td>Blink</td>
+<td>V8</td>
+</tr>
+<tr>
+<td>Firefox</td>
+<td>Gecko</td>
+<td>SpiderMonkey</td>
+</tr>
+<tr>
+<td>Safari</td>
+<td>WebKit</td>
+<td>JavaScriptCore</td>
+</tr>
+<tr>
+<td>Edge</td>
+<td>Blink</td>
+<td>V8</td>
+</tr>
+<tr>
+<td>Opera</td>
+<td>Blink</td>
+<td>V8</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="key-browser-features" class="slide level2">
+<h2>Key Browser Features</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="navigation-browsing">Navigation &amp; Browsing</h3>
+<ul>
+<li><strong>Tabbed Browsing</strong> - Multiple pages in one window</li>
+<li><strong>Address Bar Integration</strong> - URL entry + search
+functionality</li>
+<li><strong>Bookmarks</strong> - Save and organize favorite sites</li>
+<li><strong>Browsing History</strong> - Track visited websites</li>
+<li><strong>Download Manager</strong> - Manage file downloads</li>
+</ul>
+</section>
+<section id="privacy-security-features" class="slide level2">
+<h2>Privacy &amp; Security Features</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="privacy-protection">Privacy Protection</h3>
+<ul>
+<li><strong>Private/Incognito Mode</strong> - Browse without saving data
+locally</li>
+<li><strong>Enhanced Tracking Protection</strong> - Block cross-site
+trackers</li>
+<li><strong>HTTPS Enforcement</strong> - Prioritize secure
+connections</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="security-measures">Security Measures</h3>
+<ul>
+<li><strong>Pop-up Blockers</strong> - Prevent unwanted
+advertisements</li>
+<li><strong>Safe Browsing Protection</strong> - Warn about malicious
+sites</li>
+<li><strong>Automatic Updates</strong> - Patch security vulnerabilities
+quickly</li>
+</ul>
+</section>
+<section id="productivity-features" class="slide level2">
+<h2>Productivity Features</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="user-convenience">User Convenience</h3>
+<ul>
+<li><strong>Password Management</strong> - Generate and store secure
+passwords</li>
+<li><strong>Form Autofill</strong> - Automatically complete common
+information</li>
+<li><strong>Synchronization</strong> - Access data across multiple
+devices</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="developer-tools">Developer Tools</h3>
+<ul>
+<li><strong>Developer Console</strong> - Debug and inspect web
+pages</li>
+<li><strong>Network Analysis</strong> - Monitor website performance</li>
+<li><strong>Element Inspection</strong> - Examine HTML/CSS
+structure</li>
+</ul>
+</section>
+<section id="popular-modern-browsers" class="slide level2">
+<h2>Popular Modern Browsers</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="google-chrome">Google Chrome</h3>
+<ul>
+<li>Most widely used globally</li>
+<li>Fast performance and Google integration</li>
+<li>Extensive extension ecosystem</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="mozilla-firefox">Mozilla Firefox</h3>
+<ul>
+<li>Open-source with strong privacy focus</li>
+<li>Customizable interface</li>
+<li>Enhanced tracking protection</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="safari">Safari</h3>
+<ul>
+<li>Apple’s native browser for Mac/iOS</li>
+<li>Excellent energy efficiency</li>
+<li>WebKit rendering engine</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="microsoft-edge">Microsoft Edge</h3>
+<ul>
+<li>Microsoft’s modern browser replacement for IE</li>
+<li>Chromium-based with AI integration</li>
+<li>Enhanced security features</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="opera">Opera</h3>
+<ul>
+<li>Unique features: built-in VPN, ad blocker</li>
+<li>Gaming-focused version (Opera GX)</li>
+<li>Productivity tools integrated</li>
+</ul>
+</section>
+<section id="what-are-browser-extensions" class="slide level2">
+<h2>What are Browser Extensions?</h2>
+<p><strong>Browser Extensions</strong> are small software programs
+that:</p>
+<ul>
+<li>Customize and enhance browser functionality</li>
+<li>Modify user interfaces and website behavior</li>
+<li>Add new features not built into the browser</li>
+<li>Integrate third-party services</li>
+</ul>
+<p>:::<strong>Built using</strong>: HTML, CSS, JavaScript + browser
+APIs</p>
+</section>
+<section id="popular-extension-types" class="slide level2">
+<h2>Popular Extension Types</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="security-privacy">Security &amp; Privacy</h3>
+<ul>
+<li><strong>Ad Blockers</strong>: uBlock Origin, Adblock Plus</li>
+<li><strong>Password Managers</strong>: Bitwarden, LastPass</li>
+<li><strong>VPN Extensions</strong>: ExpressVPN, NordVPN*</li>
+</ul>
+<p>:::Be careful of the thousands of fake VPN extensions</p>
+</section>
+<section class="slide level2">
+
+<h3 id="productivity">Productivity</h3>
+<ul>
+<li><strong>Writing Tools</strong>: Grammarly, LanguageTool</li>
+<li><strong>Task Management</strong>: Todoist, Notion Web Clipper</li>
+<li><strong>Screenshot Tools</strong>: Awesome Screenshot,
+Lightshot</li>
+</ul>
+</section>
+<section id="how-extensions-work" class="slide level2">
+<h2>How Extensions Work</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="technical-components">Technical Components</h3>
+<ul>
+<li><strong>Content Scripts</strong> - Modify web page content and
+behavior</li>
+<li><strong>Background Scripts</strong> - Run continuously for browser
+events</li>
+<li><strong>Popup Interfaces</strong> - Quick access to extension
+features</li>
+<li><strong>Options Pages</strong> - Configure extension settings</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="installation-sources">Installation Sources</h3>
+<ul>
+<li>Chrome Web Store</li>
+<li>Firefox Add-ons</li>
+<li>Microsoft Edge Add-ons</li>
+<li>Safari Extensions (Mac App Store)</li>
+</ul>
+</section>
+<section id="extension-security" class="slide level2">
+<h2>Extension Security</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="best-practices">Best Practices</h3>
+<ul>
+<li><strong>Install from official stores only</strong></li>
+<li><strong>Review permissions carefully</strong></li>
+<li><strong>Check developer reputation</strong></li>
+<li><strong>Read user ratings and reviews</strong></li>
+<li><strong>Regular audits of installed extensions</strong></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="security-risks">Security Risks</h3>
+<ul>
+<li><strong>Excessive permissions requests</strong></li>
+<li><strong>Unknown or suspicious developers</strong></li>
+<li><strong>Extensions from unofficial sources</strong></li>
+</ul>
+</section>
+<section id="advanced-security-features" class="slide level2">
+<h2>Advanced Security Features</h2>
+<h3 id="modern-protection-methods">Modern Protection Methods</h3>
+<ul>
+<li><strong>Sandboxing</strong> - Isolate web content in secure
+containers</li>
+<li><strong>Site Isolation</strong> - Each website runs in separate
+processes</li>
+<li><strong>Certificate Validation</strong> - Verify SSL/TLS
+certificates</li>
+<li><strong>Content Security Policy</strong> - Prevent XSS attacks</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="automatic-safety">Automatic Safety</h3>
+<ul>
+<li><strong>Real-time malware detection</strong></li>
+<li><strong>Phishing site warnings</strong></li>
+<li><strong>Mixed content blocking</strong></li>
+</ul>
+</section>
+<section id="which-browser-should-i-use" class="slide level2">
+<h2>Which Browser Should I Use?</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="consider-your-priorities">Consider Your Priorities:</h3>
+</section>
+<section class="slide level2">
+
+<p><strong>Privacy-Focused</strong> - Firefox with strict tracking
+protection - Brave with built-in ad blocking - Safari with intelligent
+tracking prevention</p>
+</section>
+<section class="slide level2">
+
+<p><strong>Performance-Oriented</strong> - Chrome for speed and
+compatibility - Edge for Windows integration - Opera for built-in
+features</p>
+</section>
+<section id="browser-selection-criteria" class="slide level2">
+<h2>Browser Selection Criteria</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="key-factors-to-evaluate">Key Factors to Evaluate:</h3>
+<ol type="1">
+<li><strong>Privacy Requirements</strong> - Level of tracking protection
+needed</li>
+<li><strong>Performance Needs</strong> - Speed and resource usage</li>
+<li><strong>Feature Preferences</strong> - Built-in tools and
+capabilities</li>
+<li><strong>Platform Compatibility</strong> - Device and OS support</li>
+<li><strong>Extension Ecosystem</strong> - Availability of needed
+add-ons</li>
+<li><strong>Synchronization</strong> - Cross-device data sharing</li>
+</ol>
+</section>
+<section id="the-future-of-web-browsing" class="slide level2">
+<h2>The Future of Web Browsing</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="emerging-trends">Emerging Trends</h3>
+<ul>
+<li><strong>AI Integration</strong> - Smart assistance and
+automation</li>
+<li><strong>Enhanced Privacy</strong> - Stronger default
+protections</li>
+<li><strong>Performance Optimization</strong> - Faster rendering and
+loading</li>
+<li><strong>Progressive Web Apps</strong> - Bridging web and native
+apps</li>
+</ul>
+<h3 id="continued-evolution">Continued Evolution</h3>
+<ul>
+<li>Better security measures</li>
+<li>Improved accessibility features</li>
+<li>Enhanced developer tools</li>
+<li>Cross-platform consistency</li>
+</ul>
+</section>
+<section id="key-takeaways" class="slide level2">
+<h2>Key Takeaways</h2>
+</section>
+<section class="slide level2">
+
+<h3 id="remember">Remember:</h3>
+<ol type="1">
+<li><strong>Browsers are sophisticated software</strong> with complex
+architectures</li>
+<li><strong>Security and privacy features</strong> are increasingly
+important</li>
+<li><strong>Extensions dramatically expand functionality</strong> but
+require careful selection</li>
+<li><strong>Different browsers serve different needs</strong> - choose
+based on priorities</li>
+<li><strong>Regular updates</strong> are crucial for security and
+performance</li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p><strong>Topics for Discussion:</strong></p>
+<ul>
+<li>Which browser features matter most to you?</li>
+<li>How can you determine if it’s safe to install an extension?</li>
+<li>What privacy settings do you prioritize?</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="thank-you">Thank you!</h3>
+</section>
+<section class="slide level2">
+
+<h3 id="learn-more">Learn More:</h3>
+<ul>
+<li><a
+href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works">MDN
+Web Docs</a>: How the Web Works</li>
+<li><a
+href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions">WebExtensions
+API</a>: Extension development</li>
+<li><a href="https://developer.chrome.com/docs/devtools/">Chrome
+DevTools</a>: Developer documentation</li>
+<li><a href="https://www.mozilla.org/en-US/firefox/privacy/">Firefox
+Privacy</a>: Enhanced protection features</li>
+</ul>
 </section>
     </div>
   </div>
