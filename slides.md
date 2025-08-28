@@ -167,7 +167,7 @@ A **web browser** is a software application designed for:
 - Add new features not built into the browser
 - Integrate third-party services
 
-:::**Built using**: HTML, CSS, JavaScript + browser APIs
+::: **Built using**: HTML, CSS, JavaScript + browser APIs
 
 ---
 
@@ -181,7 +181,7 @@ A **web browser** is a software application designed for:
 - **Password Managers**: Bitwarden, LastPass
 - **VPN Extensions**: ExpressVPN, NordVPN*
 
-:::Be careful of the thousands of fake VPN extensions
+::: Be careful of the thousands of fake VPN extensions
 
 ---
 
@@ -229,6 +229,7 @@ A **web browser** is a software application designed for:
 ---
 
 ### Security Risks
+
 - **Excessive permissions requests**
 - **Unknown or suspicious developers**
 - **Extensions from unofficial sources**
@@ -238,6 +239,7 @@ A **web browser** is a software application designed for:
 ## Advanced Security Features
 
 ### Modern Protection Methods
+
 - **Sandboxing** - Isolate web content in secure containers
 - **Site Isolation** - Each website runs in separate processes
 - **Certificate Validation** - Verify SSL/TLS certificates
@@ -261,6 +263,7 @@ A **web browser** is a software application designed for:
 ---
 
 **Privacy-Focused**
+
 - Firefox with strict tracking protection
 - Brave with built-in ad blocking
 - Safari with intelligent tracking prevention
@@ -268,6 +271,7 @@ A **web browser** is a software application designed for:
 ---
 
 **Performance-Oriented**
+
 - Chrome for speed and compatibility
 - Edge for Windows integration
 - Opera for built-in features
@@ -299,6 +303,8 @@ A **web browser** is a software application designed for:
 - **Enhanced Privacy** - Stronger default protections
 - **Performance Optimization** - Faster rendering and loading
 - **Progressive Web Apps** - Bridging web and native apps
+
+---
 
 ### Continued Evolution
 
