@@ -1,6 +1,13 @@
 % Modern Web Browsers
 % Sable Cantus
 
+
+<section data-background-image="img/browsers.png"
+         data-background-size="contain"
+         data-background-position="center"
+         data-background-repeat="no-repeat">
+</section>
+
 ---
 
 ## What is a Web Browser?
@@ -14,7 +21,9 @@ A **web browser** is a software application designed for:
 
 ---
 
-## Browsers act as intermediaries between users and web servers
+Browsers act as intermediaries between users and web servers
+
+![](img/middle.png)
 
 ---
 
@@ -207,6 +216,7 @@ A **web browser** is a software application designed for:
 ---
 
 ### Installation Sources
+
 - Chrome Web Store
 - Firefox Add-ons
 - Microsoft Edge Add-ons
