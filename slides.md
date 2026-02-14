@@ -176,7 +176,11 @@ Browsers act as intermediaries between users and web servers
 - Add new features not built into the browser
 - Integrate third-party services
 
-::: **Built using**: HTML, CSS, JavaScript + browser APIs
+::: notes
+
+**Built using**: HTML, CSS, JavaScript + browser APIs
+
+:::
 
 ---
 
@@ -190,7 +194,11 @@ Browsers act as intermediaries between users and web servers
 - **Password Managers**: Bitwarden, LastPass
 - **VPN Extensions**: ExpressVPN, NordVPN*
 
-::: Be careful of the thousands of fake VPN extensions
+::: notes
+
+Be careful of the thousands of fake VPN extensions
+
+:::
 
 ---
 
